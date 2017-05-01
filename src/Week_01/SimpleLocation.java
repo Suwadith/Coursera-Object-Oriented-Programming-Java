@@ -26,7 +26,7 @@ public class SimpleLocation {
         return 0.0;
     }
 
-    //Overloaded Method which simple needs the end point Latitude and Longitude,
+    //Overloaded Method which simple needs the end point's Latitude and Longitude,
     //so that it can use Default constructor's Latitude and Longitude as starting point Coordinates
     public double distance(double otherLat, double otherLon){
         return 0.0;
