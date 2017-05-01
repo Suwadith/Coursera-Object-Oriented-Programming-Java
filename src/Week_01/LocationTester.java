@@ -1,7 +1,7 @@
 package Week_01;
 
 /**
- * Created by suwad on 5/1/2017.
+ * Created by Suwadith on 5/1/2017.
  */
 public class LocationTester {
 
