@@ -5,8 +5,8 @@ package Week_01;
  */
 public class SimpleLocation {
 
-    public double latitude;
-    public double longitude;
+    private double latitude;
+    private double longitude;
 
     //Default Constructor
     public SimpleLocation(){
@@ -18,6 +18,32 @@ public class SimpleLocation {
     public SimpleLocation(double lat, double lon){
         this.latitude = lat;
         this.longitude = lon;
+    }
+
+    //Getter
+    public double getLatitude(){
+        return this.latitude;
+    }
+
+    //Setter
+    public void setLatitude(double lat){
+        if(lat < -180 || lat > 180){
+            System.out.println("Illegal Value For Latitude");
+        }else {
+            this.latitude = lat;
+        }
+    }
+
+    public double getLongitude(){
+        return this.longitude;
+    }
+
+    public void setLongitude(double lon){
+        if(lon < -180 || lon > 180){
+            System.out.println("Illegal Value For Latitude");
+        }else {
+            this.longitude = lon;
+        }
     }
 
     //Normal Method which needs an object to calculate the distance
