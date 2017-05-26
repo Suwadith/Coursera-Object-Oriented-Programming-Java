@@ -1,4 +1,4 @@
-package Week_04;
+package Week_04.Inheritance.ObjectTypes;
 
 /**
  * Created by Suwadith on 5/26/2017.
