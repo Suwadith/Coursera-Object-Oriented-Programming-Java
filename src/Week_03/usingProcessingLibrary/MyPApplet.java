@@ -9,7 +9,7 @@ public class MyPApplet extends PApplet {
     private PImage backgroundImg;
 
     //Executed once
-    public void settings() {
+    public void setup() {
         size(200, 200);
         backgroundImg = loadImage(URL, "jpg");
         /*background(255, 200, 200);*/
