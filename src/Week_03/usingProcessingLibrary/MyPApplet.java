@@ -12,7 +12,8 @@ public class MyPApplet extends PApplet {
     public void setup() {
         size(200, 200);
         backgroundImg = loadImage(URL, "jpg");
-        /*background(255, 200, 200);*/
+background(255, 200, 200);
+
     }
 
     //Loops often
@@ -21,7 +22,8 @@ public class MyPApplet extends PApplet {
         image(backgroundImg, 0, 0);
         int[] color = sunColorSet(second());
         fill(color[0],color[1],color[2]);
-        /*fill(255,209,0);*/
+fill(255,209,0);
+
         ellipse(width/4, height/5, width/5, height/5);
     }
 
